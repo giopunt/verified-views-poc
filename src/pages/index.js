@@ -1,21 +1,74 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql, Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+import styles from "./index.module.css";
 
-export default IndexPage
+const IndexPage = ({ data }) => {
+  return (
+    <Layout>
+      <SEO
+        title="Welcome to #VerifiedViews"
+        keywords={[`Verified Views`, `SEENConnects`, `Business Podcast`]}
+      />
+      <p className={styles.intro}>
+        <strong>Welcome to Verified Views</strong> - the podcast series brought
+        to you by{" "}
+        <a
+          href="http://seenconnects.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          SEENConnects.com
+        </a>
+        , the innovative influencer marketing agency.
+      </p>
+      <div>
+        <span className={styles.episodesCount}>
+          <h4>{data.allMarkdownRemark.totalCount} Episodes</h4>
+        </span>
+      </div>
+      {data.allMarkdownRemark.edges.map(({ node }) => (
+        <div key={node.id} className={styles.episode}>
+          <h3>{node.frontmatter.title}</h3>
+          <span>Released {node.frontmatter.date}</span>
+          <p>{node.excerpt}</p>
+          <a className={styles.listenNow} href={node.frontmatter.url}>
+            ► Listen Now
+          </a>
+        </div>
+      ))}
+      <Link to="/episodes/">More Episodes...</Link>
+    </Layout>
+  );
+};
+
+export const query = graphql`
+  query {
+    allMarkdownRemark {
+      totalCount
+      edges {
+        node {
+          id
+          frontmatter {
+            title
+            date(formatString: "DD MMMM, YYYY")
+            url
+          }
+          excerpt
+        }
+      }
+    }
+  }
+`;
+
+IndexPage.propTypes = {
+  data: PropTypes.shape({
+    allMarkdownRemark: PropTypes.object.isRequired
+  }).isRequired
+};
+
+export default IndexPage;

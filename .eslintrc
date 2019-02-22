@@ -1,0 +1,28 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": "warn",
+    "linebreak-style": "off",
+    "prettier/prettier": "error",
+    "prefer-const": "error",
+    "no-var": "error"
+  },
+  "globals": {
+      "__dirname": true,
+      "module": true
+  }
+}

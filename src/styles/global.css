@@ -1,0 +1,13 @@
+html, body {
+  background: #eee;
+}
+
+html, body, body * {
+  font-family: 'Lato', sans-serif;
+}
+
+a  {
+  color: #2d2d2d;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
