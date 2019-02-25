@@ -1,0 +1,45 @@
+.footer {
+  background: #F0E345;
+  line-height: 24px;
+  padding-top: 20px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 30px;
+}
+
+.connectsLogo {
+  display: block;
+  margin: 0 auto 30px;
+  padding-top: 10px;
+  width: 200px;
+}
+
+.contacts {
+  list-style: none;
+  margin: 0 0 30px;
+}
+
+.contacts li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.socialIcon {
+  width: 35px;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+.instagram .socialIcon {
+  width: 30px;
+  margin-left: 3px;
+}
+
+.copyright {
+  font-size: 14px;
+}

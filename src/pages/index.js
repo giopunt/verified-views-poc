@@ -2,10 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql, Link } from "gatsby";
 
+import Episode from "../components/episode";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 
 import styles from "./index.module.css";
+import connectsLogo from "../images/connects+logo.png";
 
 const IndexPage = ({ data }) => {
   return (
@@ -31,17 +33,25 @@ const IndexPage = ({ data }) => {
           <h4>{data.allMarkdownRemark.totalCount} Episodes</h4>
         </span>
       </div>
-      {data.allMarkdownRemark.edges.map(({ node }) => (
-        <div key={node.id} className={styles.episode}>
-          <h3>{node.frontmatter.title}</h3>
-          <span>Released {node.frontmatter.date}</span>
-          <p>{node.excerpt}</p>
-          <a className={styles.listenNow} href={node.frontmatter.url}>
-            ► Listen Now
-          </a>
-        </div>
-      ))}
-      <Link to="/episodes/">More Episodes...</Link>
+      {data.allMarkdownRemark.edges
+        .reverse()
+        .slice(0, 3)
+        .map(({ node }) => (
+          <Episode
+            key={node.id}
+            excerpt={node.excerpt}
+            title={node.frontmatter.title}
+            date={node.frontmatter.date}
+            url={node.frontmatter.url}
+          />
+        ))}
+      <Link to="/episodes/" className={styles.more}>
+        More Episodes...
+      </Link>
+      <div className={styles.sponsor}>
+        <h4>Brought to you by</h4>
+        <img src={connectsLogo} />
+      </div>
     </Layout>
   );
 };

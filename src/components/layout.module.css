@@ -1,48 +1,9 @@
-.header {
-  background: #F0E345;
-  height: 30px;
-}
-
-.footer {
-  line-height: 24px;
-  background: #F0E345;
-}
-
 .content {
-  padding: 0px 30px 30px;
-  max-width: 690px;
   margin: 0 auto;
+  max-width: 960px;
+  padding: 0 30px 30px;
 }
 
 .whiteBackground {
   background-color: #fff;
-}
-
-.footer h3 {
-  font-size: 18px;
-  font-weight: 900;
-  padding-top: 30px;
-}
-
-.logo {
-  width: 100px;
-  margin: 0 auto 30px;
-  padding-top: 30px;
-  display: block;
-}
-
-.connectsLogo {
-  width: 200px;
-  margin: 0 auto 30px;
-  padding-top: 10px;
-  display: block;
-}
-
-.contacts {
-  list-style: none;
-}
-
-
-.copyright {
-  font-size: 14px;
 }

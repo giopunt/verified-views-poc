@@ -1,0 +1,52 @@
+.episode {
+  border: 5px solid #F0E345;
+  margin: 20px auto 30px;
+  max-width: 690px;
+  padding: 20px;
+}
+
+.episode h3 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.releaseDate {
+  color: #2A3432;
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+.excerpt {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.excerpt p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.listenNow {
+  border: 2px solid #1D1D1D;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: .4px;
+  margin: 0 auto;
+  padding: 6px 20px;
+  vertical-align: bottom;
+}
+
+.listenNow:hover {
+  background: #F0E345;
+}
+
+.playIcon {
+  font-size: 16px;
+  padding-right: 3px;
+}

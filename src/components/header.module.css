@@ -1,0 +1,11 @@
+.header {
+  background: #F0E345;
+  height: 30px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 30px;
+  padding-top: 30px;
+  width: 150px;
+}
