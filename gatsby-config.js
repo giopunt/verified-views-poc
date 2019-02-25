@@ -4,6 +4,7 @@ module.exports = {
     description: `Welcome to Verified Views - the podcast series brought to you by SEENConnects.com, the innovative influencer marketing agency.`,
     author: `@seenconnects`
   },
+  pathPrefix: "/verified-views-poc",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
