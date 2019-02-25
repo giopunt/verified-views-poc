@@ -6,7 +6,7 @@
 
 .footer h3 {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 600;
   padding-top: 30px;
 }
 
@@ -25,6 +25,7 @@
 .contacts li {
   display: flex;
   flex-direction: row;
+  font-size: 18px;
   align-items: center;
   justify-content: flex-start;
 }

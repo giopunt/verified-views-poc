@@ -7,7 +7,7 @@
 
 .episode h3 {
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 24px;
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@
 .releaseDate {
   color: #2A3432;
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
   padding-bottom: 30px;
 }
 
@@ -28,13 +28,13 @@
 }
 
 .excerpt p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
 .listenNow {
   border: 2px solid #1D1D1D;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: .4px;
   margin: 0 auto;

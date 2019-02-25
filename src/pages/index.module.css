@@ -3,7 +3,7 @@
 }
 
 .intro strong {
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .episodesCount {
@@ -15,7 +15,7 @@
 
 .episodesCount h4 {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
   letter-spacing: 1px;
   margin: -10px 0 0;
   padding: 0 5px 5px;
@@ -29,7 +29,7 @@
   border: 2px solid #2d2d2d;
   padding: 7px 10px;
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
   background: #F0E345;
 }
 
