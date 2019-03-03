@@ -31,14 +31,14 @@
 }
 
 .socialIcon {
-  width: 35px;
-  margin: 0 15px 0 0;
+  width: 27px;
+  margin: 3px 15px 0 0;
   padding: 0;
 }
 
 .instagram .socialIcon {
-  width: 30px;
-  margin-left: 3px;
+  width: 25px;
+  margin-left: 2px;
 }
 
 .copyright {
