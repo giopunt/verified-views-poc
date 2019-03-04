@@ -29,6 +29,7 @@ const EpisodesPage = ({ data }) => (
       <Episode
         key={node.id}
         excerpt={node.excerpt}
+        image={node.frontmatter.image}
         title={node.frontmatter.title}
         date={node.frontmatter.date}
         url={node.frontmatter.url}
@@ -49,6 +50,7 @@ export const query = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             url
+            image
           }
           excerpt
         }
