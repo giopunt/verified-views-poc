@@ -6,18 +6,18 @@ const Episode = ({ date, excerpt, image, title, url }) => (
   <div className={styles.episode}>
     <h3>{title}</h3>
     <span className={styles.releaseDate}>Released {date}</span>
-    <div>
+    <div className={styles.components}>
       <img
         src={`/${image}`}
         alt="In this episode image"
         className={styles.mainImage}
       />
-    </div>
-    <div className={styles.excerpt}>
-      <p>{excerpt}</p>
-      <a className={styles.listenNow} href={url}>
-        <span className={styles.playIcon}>►</span> Listen Now
-      </a>
+      <div className={styles.excerpt}>
+        <p>{excerpt}</p>
+        <a className={styles.listenNow} href={url}>
+          <span className={styles.playIcon}>►</span> Listen Now
+        </a>
+      </div>
     </div>
   </div>
 );
