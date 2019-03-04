@@ -8,7 +8,7 @@ const Episode = ({ date, excerpt, image, title, url }) => (
     <span className={styles.releaseDate}>Released {date}</span>
     <div className={styles.components}>
       <img
-        src={`/${image}`}
+        src={`https://giopunt.github.io/verified-views-poc/${image}`}
         alt="In this episode image"
         className={styles.mainImage}
       />
