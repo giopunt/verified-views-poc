@@ -27,10 +27,16 @@
   margin: 0 auto 30px;
 }
 
+.clickable {
+  text-decoration: none;
+  border: 0;
+}
+
 .excerpt {
   display: flex;
   align-items: center;
   flex-direction: column;
+  flex: 1;
 }
 
 .excerpt p {
@@ -71,7 +77,7 @@
   .mainImage {
     flex: 1;
     height: 172px;
-    width: 230px;
-    margin: -30px 30px 0 50px;
+    max-width: 230px;
+    margin: -50px 30px 0 50px;
   }
 }
