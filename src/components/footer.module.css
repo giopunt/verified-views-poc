@@ -4,6 +4,10 @@
   padding-top: 20px;
 }
 
+.footer.blue {
+  background: #82d3ce;
+}
+
 .footer h3 {
   font-size: 18px;
   font-weight: 600;

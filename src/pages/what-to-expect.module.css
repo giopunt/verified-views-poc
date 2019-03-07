@@ -1,0 +1,32 @@
+.title {
+  font-size: 23px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+article {
+  margin-bottom: 30px;
+}
+
+article:nth-child(odd) {
+  text-align: right;
+}
+
+article p {
+  display: inline-block;
+  max-width: 400px;
+}
+
+article h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  background: #82d3ce;
+  width: auto;
+  display: inline-block;
+  padding: 0 3px;
+}
+
+article h3 span {
+  transform: translateY(-7px);
+  display: inline-block;
+}

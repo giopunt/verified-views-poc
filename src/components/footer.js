@@ -1,13 +1,13 @@
 import React from "react";
-
+import PropTypes from "prop-types";
 import connectsLogo from "../images/connects-logo.png";
 import mailLogo from "../images/e-mail.png";
 import instagramLogo from "../images/instagram.png";
 import styles from "./layout.module.css";
 import stylesFooter from "./footer.module.css";
 
-const Footer = () => (
-  <footer className={stylesFooter.footer}>
+const Footer = ({ theme }) => (
+  <footer className={`${stylesFooter.footer} ${stylesFooter[theme]}`}>
     <div className={styles.content}>
       <h3>ABOUT SEEN CONNECTS</h3>
       <p>
@@ -41,5 +41,9 @@ const Footer = () => (
     </div>
   </footer>
 );
+
+Footer.propTypes = {
+  theme: PropTypes.string
+};
 
 export default Footer;

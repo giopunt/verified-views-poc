@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 
 import Episode from "../components/episode";
 import Layout from "../components/layout";
@@ -9,7 +9,7 @@ import SEO from "../components/seo";
 import styles from "./index.module.css";
 
 const EpisodesPage = ({ data }) => (
-  <Layout>
+  <Layout linkToHomepage={true}>
     <SEO
       title="List of Episodes"
       keywords={[
@@ -19,7 +19,7 @@ const EpisodesPage = ({ data }) => (
         `List of Episodes`
       ]}
     />
-    <h1>List of Episodes</h1>
+    <h1 className={styles.title}>List of Episodes</h1>
     <div>
       <span className={styles.episodesCount}>
         <h4>{data.allMarkdownRemark.totalCount} Episodes</h4>
@@ -35,7 +35,9 @@ const EpisodesPage = ({ data }) => (
         url={node.frontmatter.url}
       />
     ))}
-    <Link to="/">Go back</Link>
+    <div className={styles.alignCenter}>
+      <a href="#top">Back to Top</a>
+    </div>
   </Layout>
 );
 

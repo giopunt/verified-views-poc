@@ -49,6 +49,11 @@ const IndexPage = ({ data }) => {
       <Link to="/episodes/" className={styles.more}>
         More Episodes...
       </Link>
+      <div className={styles.extraLinks}>
+        <Link to="/what-to-expect/">
+          What you can expect from #VerifiedViews
+        </Link>
+      </div>
       <div className={styles.sponsor}>
         <h4>Brought to you by</h4>
         <img src={connectsLogo} />
