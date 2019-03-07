@@ -2,6 +2,9 @@
   border: 5px solid #F0E345;
   margin: 20px auto 30px;
   max-width: 690px;
+}
+
+.content {
   padding: 20px;
 }
 
@@ -17,14 +20,13 @@
   color: #2A3432;
   display: inline-block;
   font-size: 16px;
-  padding-bottom: 30px;
+  padding: 10px 0 20px;
 }
 
 .mainImage {
   display: block;
-  max-width: 230px;
   width: 100%;
-  margin: 0 auto 30px;
+  margin-bottom: 0;
 }
 
 .clickable {
@@ -74,10 +76,16 @@
     padding-bottom: 15px;
   }
 
-  .mainImage {
+  .linkedImage {
+    margin: 30px 30px 0 0;
     flex: 1;
-    height: 172px;
-    max-width: 230px;
-    margin: -50px 30px 0 50px;
+  }
+
+  .mainImage {
+    max-width: 300px;
+  }
+
+  .content {
+    flex: 2;
   }
 }
