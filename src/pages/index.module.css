@@ -38,6 +38,10 @@
   padding: 0 5px 5px;
 }
 
+.episodesList {
+  padding-bottom: 20px;
+}
+
 .more {
   text-decoration: none;
   display: block;
@@ -47,7 +51,7 @@
   padding: 7px 10px;
   text-align: center;
   font-weight: 500;
-  background: #F0E345;
+  background: #fff;
 }
 
 .sponsor {
