@@ -25,7 +25,7 @@ const EpisodesPage = ({ data }) => (
         <h4>{data.allMarkdownRemark.totalCount} Episodes</h4>
       </span>
     </div>
-    {data.allMarkdownRemark.edges.reverse().map(({ node }) => (
+    {data.allMarkdownRemark.edges.map(({ node }) => (
       <Episode
         key={node.id}
         excerpt={node.frontmatter.description}

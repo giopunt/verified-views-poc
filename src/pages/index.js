@@ -34,19 +34,16 @@ const IndexPage = ({ data }) => {
         </span>
       </div>
       <div className={styles.episodesList}>
-        {data.allMarkdownRemark.edges
-          .reverse()
-          .slice(0, 3)
-          .map(({ node }) => (
-            <Episode
-              key={node.id}
-              excerpt={node.frontmatter.description}
-              image={node.frontmatter.image}
-              title={node.frontmatter.title}
-              date={node.frontmatter.date}
-              url={node.frontmatter.url}
-            />
-          ))}
+        {data.allMarkdownRemark.edges.slice(0, 3).map(({ node }) => (
+          <Episode
+            key={node.id}
+            excerpt={node.frontmatter.description}
+            image={node.frontmatter.image}
+            title={node.frontmatter.title}
+            date={node.frontmatter.date}
+            url={node.frontmatter.url}
+          />
+        ))}
       </div>
       <Link to="/episodes/" className={styles.more}>
         More Episodes...
