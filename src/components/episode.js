@@ -12,7 +12,7 @@ const Episode = ({ date, excerpt, image, title, url }) => (
         rel="noopener noreferrer"
       >
         <img
-          src={`https://giopunt.github.io/verified-views-poc/${image}`}
+          src={`${image}`}
           alt="In this episode image"
           className={styles.mainImage}
         />

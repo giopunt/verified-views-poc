@@ -6,15 +6,16 @@ module.exports = {
   },
   pathPrefix: "/verified-views-poc",
   plugins: [
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `src`,
-        path: `${__dirname}/src/episodes/`
+        name: `episodes`,
+        path: `${__dirname}/episodes/`
       }
     },
-    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

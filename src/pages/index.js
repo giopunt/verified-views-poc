@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
           .map(({ node }) => (
             <Episode
               key={node.id}
-              excerpt={node.excerpt}
+              excerpt={node.frontmatter.description}
               image={node.frontmatter.image}
               title={node.frontmatter.title}
               date={node.frontmatter.date}
@@ -73,11 +73,11 @@ export const query = graphql`
           id
           frontmatter {
             date(formatString: "DD MMMM, YYYY")
+            description
             image
             title
             url
           }
-          excerpt
         }
       }
     }

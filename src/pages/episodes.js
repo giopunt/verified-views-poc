@@ -28,7 +28,7 @@ const EpisodesPage = ({ data }) => (
     {data.allMarkdownRemark.edges.reverse().map(({ node }) => (
       <Episode
         key={node.id}
-        excerpt={node.excerpt}
+        excerpt={node.frontmatter.description}
         image={node.frontmatter.image}
         title={node.frontmatter.title}
         date={node.frontmatter.date}
@@ -49,12 +49,12 @@ export const query = graphql`
         node {
           id
           frontmatter {
-            title
             date(formatString: "DD MMMM, YYYY")
-            url
+            description
             image
+            title
+            url
           }
-          excerpt
         }
       }
     }
