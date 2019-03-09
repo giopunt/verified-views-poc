@@ -5,16 +5,24 @@
   </a>
 </p>
 <h1 align="center">
-  #VerifiedViews - Podcast Website
+  🎤 #VerifiedViews - Podcast Website 
 </h1>
 
-## How to add content
+## ✍️ How to add content
 
 Go to http://verifiedveiws.co/admin/, login in with your github profile.
 
 From the dashboard you can add episodes and relative media to the website.
 
 For best results, every podcast image should be 800x600px.
+
+Once you have sucessfully added or modified an episodes the website will take few minutes to update, check the status badge below: 
+
+- Building, means the website hasn't finished the depolyment yed.
+
+- Success, means the newest website build is up and running. 
+
+Chekc status below: 👇
 
 ## 💫 Website Status
 
