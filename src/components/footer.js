@@ -35,7 +35,14 @@ const Footer = ({ theme }) => (
       </ul>
       <div className={stylesFooter.copyright}>
         Copyright © {new Date().getFullYear()} -{` `}
-        <a href="http://seenconnects.com/">Seen Connects</a>. <br />
+        <a
+          href="http://seenconnects.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Seen Connects
+        </a>
+        . <br />
         All rights reserved.
       </div>
     </div>
