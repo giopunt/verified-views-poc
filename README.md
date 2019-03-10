@@ -1,4 +1,3 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="http://verifiedveiws.co/" target="_blank" rel="noopener noreferrer">
     <img alt="Verified Views Podcast Logo" src="https://raw.githubusercontent.com/giopunt/verified-views-poc/master/src/images/logo.jpg" width="100" />
