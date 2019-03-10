@@ -8,7 +8,7 @@
   🎤 #VerifiedViews - Podcast Website 
 </h1>
 
-## ✍️ How to add content
+## ✍️ How to add a new episode
 
 Go to http://verifiedveiws.co/admin/, login in with your github profile.
 
