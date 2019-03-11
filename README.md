@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="http://verifiedveiws.co/" target="_blank" rel="noopener noreferrer">
+  <a href="http://verifiedviews.co/" target="_blank" rel="noopener noreferrer">
     <img alt="Verified Views Podcast Logo" src="https://raw.githubusercontent.com/giopunt/verified-views-poc/master/src/images/logo.jpg" width="100" />
   </a>
 </p>
@@ -9,7 +9,7 @@
 
 ## ✍️ How to add a new episode
 
-Go to http://verifiedveiws.co/admin/, login in with your github profile.
+Go to http://verifiedviews.co/admin/, login in with your github profile.
 
 From the dashboard you can add a new episode or edit the old ones and add new thumbnails.
 
