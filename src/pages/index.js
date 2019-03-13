@@ -34,7 +34,7 @@ const IndexPage = ({ data }) => {
         </span>
       </div>
       <div className={styles.episodesList}>
-        {data.allMarkdownRemark.edges.slice(0, 3).map(({ node }) => (
+        {data.allMarkdownRemark.edges.map(({ node }) => (
           <Episode
             key={node.id}
             excerpt={node.frontmatter.description}
@@ -63,7 +63,10 @@ const IndexPage = ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(
+      limit: 3
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       totalCount
       edges {
         node {
