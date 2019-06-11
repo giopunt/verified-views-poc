@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #5: Rowan Cheshire'
+title: 'Verified Views Ep #6: Rowan Cheshire'
 date: 2019-06-10T09:32:52.268Z
 url: apple.co/2XIL4ct
 image: /assets/rowan.jpg
