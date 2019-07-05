@@ -1,7 +1,7 @@
 ---
 title: 'Verified Views Ep #6: Rowan Cheshire'
 date: 2019-06-10T09:32:52.268Z
-url: apple.co/2XIL4ct
+url: 'http://bit.ly/VVepisode6'
 image: /assets/rowan.jpg
 description: >-
   In this episode, Olympic skier Rowan Cheshire chats to us about what it’s like
