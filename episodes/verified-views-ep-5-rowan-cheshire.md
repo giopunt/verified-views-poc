@@ -9,6 +9,6 @@ description: >-
   with global brands like Samsung and Superdry and humbly ignores the fact we
   think she’s the perfect role model for a generation of up and coming
   insta-athletes. Find Rowan on Instagram at:
-  <https://www.instagram.com/rowancheshire>
+  https://www.instagram.com/rowancheshire
 ---
 
