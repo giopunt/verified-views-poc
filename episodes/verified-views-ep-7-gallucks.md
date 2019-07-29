@@ -8,8 +8,7 @@ description: >-
   Gallucks, chatting to us about all things influencer. So, from fake followers,
   Fyre Festival and homophobic trolls, Joel is here to spill some influencer tea
   and tell us what life is really like behind the ‘gram. Find Gallucks on
-  Instagram at: <https://www.instagram.com/gallucks/>. To find out more about
-  the work we do at Connects, visit us at
-  [www.seenconnects.com](www.seenconnects.com).
+  Instagram at: https://www.instagram.com/gallucks/. To find out more about the
+  work we do at Connects, visit us at www.seenconnects.com.
 ---
 
