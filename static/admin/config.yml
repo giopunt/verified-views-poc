@@ -15,4 +15,4 @@ collections:
       - { name: date, label: 'Release Date', widget: date }
       - { name: url, label: 'Podcast Link', widget: string }
       - { name: image, label: Image, widget: image }
-      - { name: description, label: Description }
+      - { name: description, label: Description, widget: markdown }
