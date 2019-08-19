@@ -6,6 +6,8 @@ url: >-
 image: /assets/episode-4-min.png
 description: >-
   Danielle Peazer tells us how she went from professional dancer to online
-  fitness guru, with a following of over 5 million in her back pocket.
+  fitness guru, with a following of over 5 million in her back pocket. Find
+  Danielle on Instagram at: https://www.instagram.com/daniellepeazer/. To find
+  out more about the work we do at Connects, visit us at www.seenconnects.com.
 ---
 
