@@ -6,6 +6,10 @@ url: >-
 image: /assets/episode-2.jpg
 description: >-
   We talk to Edd Kimber, aka The Boy Who Bakes, on reality TV truths, social
-  media's ever changing landscape and the Gay Cake row.
+  media's ever changing landscape and the Gay Cake row. Find Edd on Instagram
+  at: https://www.instagram.com/theboywhobakes/
+
+  To find out more about the work we do at Connects, visit us at
+  www.seenconnects.com.
 ---
 
