@@ -6,6 +6,10 @@ url: >-
 image: /assets/episode-1.jpg
 description: >-
   Connects MD Sedge Beswick chats to The Mac Twins on gut health, life as the
-  Love Island DJs and what it means to be female in the music industry.
+  Love Island DJs and what it means to be female in the music industry. Find the
+  twins on Instagram at: https://www.instagram.com/themactwins/. 
+
+  To find out more about the work we do at Connects, visit us at
+  www.seenconnects.com.
 ---
 
