@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views #Ep 3: Arooj Aftab'
+title: 'Ep #3: The Power of Diversity with Arooj Aftab'
 date: 2019-03-11T16:20:33.369Z
 url: 'https://apple.co/2UuPphN'
 image: /assets/episode-3.png
