@@ -1,5 +1,5 @@
 ---
-title: 'Ep #10: Viral Content with @World_Record_Egg'
+title: 'Ep #1: Gut Brains with The Mac Twins'
 date: 2019-01-18T13:47:18.993Z
 url: >-
   https://itunes.apple.com/gb/podcast/verified-views/id1449998981?mt=2&i=1000427937971
