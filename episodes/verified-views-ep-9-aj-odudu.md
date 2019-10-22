@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #9: AJ Odudu'
+title: 'Ep #9: Setbacks and Successes with AJ Odudu'
 date: 2019-09-09T15:44:47.126Z
 url: 'http://bit.ly/AJOdudu'
 image: /assets/7332a8f3-3eaf-4171-929d-6b7c0554a68b.jpg
