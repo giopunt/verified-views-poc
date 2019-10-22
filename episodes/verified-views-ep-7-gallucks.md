@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #7: Gallucks'
+title: 'Ep #7: Fraudulent Followers with Gallucks'
 date: 2019-07-05T09:48:27.025Z
 url: 'http://bit.ly/VVepisode7'
 image: /assets/img_8682.jpg
