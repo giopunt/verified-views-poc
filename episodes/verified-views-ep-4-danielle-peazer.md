@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #4: Danielle Peazer'
+title: 'Ep #4: Train like a Dancer with Danielle Peazer'
 date: 2019-04-08T08:40:33.264Z
 url: >-
   https://podcasts.apple.com/gb/podcast/verified-views-ep-4-danielle-peazer/id1449998981?i=1000434116719
