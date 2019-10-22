@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #10: World Record Egg'
+title: 'Ep #10: Viral Content with @World_Record_Egg'
 date: 2019-10-07T20:02:35.625Z
 url: 'https://apple.co/2APNvA0'
 image: /assets/img_1549.jpg
