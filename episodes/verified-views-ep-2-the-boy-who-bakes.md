@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #2: The Boy Who Bakes'
+title: 'Ep #2: The Boy Who Bakes with Edd Kimber'
 date: 2019-02-14T13:48:57.033Z
 url: >-
   https://itunes.apple.com/gb/podcast/verified-views/id1449998981?mt=2&i=1000429886177
