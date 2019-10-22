@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #1: The Mac Twins'
+title: 'Ep #10: Viral Content with @World_Record_Egg'
 date: 2019-01-18T13:47:18.993Z
 url: >-
   https://itunes.apple.com/gb/podcast/verified-views/id1449998981?mt=2&i=1000427937971
