@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #6: Rowan Cheshire'
+title: 'Ep #6: Being a Female Athlete with Rowan Cheshire'
 date: 2019-06-10T09:32:52.268Z
 url: 'http://bit.ly/VVepisode6'
 image: /assets/rowan.jpg
