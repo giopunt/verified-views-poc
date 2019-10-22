@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #5: Frankie Bridge'
+title: 'Ep #5: Mental Health with Frankie Bridge'
 date: 2019-05-13T08:29:49.240Z
 url: ' https://apple.co/2PZu2nj'
 image: /assets/espisode-5-min.png
