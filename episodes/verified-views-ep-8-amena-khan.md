@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views Ep #8: Amena Khan'
+title: 'Ep #8: Hijab Tutorials and School-run Vlogs with Amena Khan'
 date: 2019-08-05T10:01:47.809Z
 url: 'https://apple.co/2ZvMnMw'
 image: /assets/p6100569.jpg
