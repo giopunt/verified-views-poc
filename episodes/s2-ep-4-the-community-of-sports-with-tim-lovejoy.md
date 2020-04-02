@@ -7,8 +7,7 @@ description: >-
   If you’ve ever wondered what goes down at the Beckham’s infamous World Cup
   parties, this is the podcast episode for you. Tim Lovejoy first hit our
   screens as the host of Soccer AM on Sky Sports, a football show that raised
-  the bar in every sense, in a format that has never been matched. As well as an
-  accomplished TV presenter, Tim is also an author and podcast host. It’s been a
+  the bar in every sense, in a format that has never been matched. It’s been a
   decade since the glory days of Soccer AM… so, what’s Tim up to now, why was he
   peeing next to Puff Daddy at a party, and why is the emotional impact of sport
   so relevant? Tune in for two fans going head to head – Adidas Vs. Nike, City
