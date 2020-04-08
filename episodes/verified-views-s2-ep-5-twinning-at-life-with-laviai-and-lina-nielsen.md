@@ -1,5 +1,5 @@
 ---
-title: 'Verified Views S2 Ep #5: Twinning At Life with Laviai and Lina Nielsen '
+title: 'S2 Ep #5: Twinning At Life with Laviai and Lina Nielsen '
 date: 2020-04-08T09:11:44.650Z
 url: 'https://bit.ly/LaviaiLinaVV'
 image: /assets/dsc00133.jpg
