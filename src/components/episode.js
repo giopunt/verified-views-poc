@@ -1,10 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
-import showdown from "showdown";
+import ReactMarkdown from "react-markdown";
 
 import styles from "./episode.module.css";
-
-const converter = new showdown.Converter();
 
 const Episode = ({ date, excerpt, image, title, url }) => (
   <div className={styles.episode}>
@@ -35,11 +33,7 @@ const Episode = ({ date, excerpt, image, title, url }) => (
         </h3>
         <span className={styles.releaseDate}>Released {date}</span>
         <div className={styles.excerpt}>
-          <p
-            dangerouslySetInnerHTML={{
-              __html: converter.makeHtml(excerpt)
-            }}
-          ></p>
+          <ReactMarkdown source={excerpt} escapeHtml={false} />
           <a
             className={styles.listenNow}
             href={url}
