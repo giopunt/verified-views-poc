@@ -9,20 +9,5 @@ description: >-
   be the most fun anyone’s had whilst learning about oral-hygiene! The singing
   doctor talks us through balancing dentistry with parody and why a niche is the
   secret to successful content on TikTok.
-
-
-  To watch our full TikTok focus-group film, featuring 35 expert creators, head
-  here: https://bit.ly/2YMLOQw 
-
-
-  To follow @dentistsinging on TikTok, head here:
-  https://www.tiktok.com/@dentistsinging
-
-
-  And, of course, if you want to know more about SEEN Connects, check us out
-  here: https://seenconnects.com/ 
-
-
-  You can also email us directly at info@seenconnects.com
 ---
 
