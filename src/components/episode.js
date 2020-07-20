@@ -17,6 +17,7 @@ const Episode = ({ date, excerpt, image, title, url }) => (
       >
         <img
           src={`${image}`}
+          loading="lazy"
           alt="In this episode image"
           className={styles.mainImage}
         />
